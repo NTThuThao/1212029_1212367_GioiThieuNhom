@@ -5,6 +5,7 @@
 	text-align: right;
 	position: fixed;
 	width: 1333px;
+     position: absolute;
 }
 #menu ul{
     list-style-type:none;
