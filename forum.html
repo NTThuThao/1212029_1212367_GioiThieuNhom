@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+/*link tham khảo: http://www.formget.com/bootstrap-comment-box*/
+
+<head>
+
+	<meta charset = "utf-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1">
+	<link href = "css/bootstrap.css" rel = "stylesheet" type = "text/css"/>
+	<link href="css.css" rel="stylesheet" type="text/css"/>
+	<link rel = "stylesheet" href = "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<title>COMMENT BOX</title>
+
+	<link rel="stylesheet" href="forum.css">
+
+</head>
+
+<body>
+        
+<div class="container">
+
+<h1>DIỄN ĐÀN THẢO LUẬN</h1>
+	<div id="wrap">
+	<div id="main">
+	<div class="row">
+	<div class="col-md-5">
+		<h3 class="heading">BÌNH LUẬN VÀ PHẢN HỒI</h3>
+	</div>
+	<div class="col-md-7">
+		<div id="upper_blank"></div>
+	</div>
+	</div>
+	</div>
+
+	<P>Vui lòng điền đầy đủ thông tin. Lưu ý một số thông tin bắt buộc.</P>
+
+	<div id='form'>
+	<div class="row">
+	<div class="col-md-12">
+
+	<form action="" method="POST" id="commentform">
+
+	<div id="comment-name" class="form-row">
+		<input type = "text" placeholder = "Name (bắt buộc)" name = "dname"  id = "name" >
+	</div>
+	<div id="comment-email" class="form-row">
+		<input type = "text" placeholder = "Mail (không công khai) (bắt buộc)" name = "demail"  id = "email">
+	</div>
+	<div id="comment-url" class="form-row">
+		<input type = "text" placeholder = "Website" name = "url"  id = "url" >
+	</div>
+	<div id="comment-message" class="form-row">
+		<textarea name = "comment" placeholder = "Message" id = "comment" ></textarea>
+	</div>
+	<a href="#"><input type="submit" name="dsubmit" id="commentSubmit" value="Submit Comment"></a>
+	<input style="width: 30px" type="checkbox" value="1" name="subscribe" id="subscribe" checked="checked">
+	<p1><b>Thông báo khi bình luận được thêm vào</b></p1>
+	</form>
+
+	</div>
+	</div>
+	</div>
+	</div>
+
+
+	<div id="wrap">
+	<div id="main">
+	<div class="row">
+	<div class="col-md-5">
+		<h3 class="heading">ĐỂ LẠI LỜI NHẮN</h3>
+	</div>
+	<div class="col-md-7">
+		<div id="upper_blank"></div>
+	</div>
+	</div>
+	</div>
+
+	
+
+	<div id='form'>
+	<div class="row">
+	<div class="col-md-12">
+
+	<form action="" method="POST" id="commentform">
+
+	
+	<div id="comment-message" class="form-row">
+		<textarea name = "comment" placeholder = "Reply" id = "comment" ></textarea>
+	</div>
+	<a href="#"><input type="submit" name="dsubmit" id="commentSubmit" value="Reply"></a>
+	
+	</form>
+
+	</div>
+	</div>
+	</div>
+	</div>
+
+	</div>
+</body>
+	
+</html>
